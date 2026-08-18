@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Foodie login logo</title>
+  <desc id="desc">A premium food-delivery emblem with a serving dome and location pin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="14" y1="8" x2="114" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#20294a"/><stop offset=".5" stop-color="#171d37"/><stop offset="1" stop-color="#0a1023"/></linearGradient>
+    <linearGradient id="pin" x1="37" y1="29" x2="91" y2="97" gradientUnits="userSpaceOnUse"><stop stop-color="#a89cff"/><stop offset=".5" stop-color="#7a69ff"/><stop offset="1" stop-color="#34d8c5"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#37d7c5" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="128" height="128" rx="38" fill="url(#bg)"/>
+  <path d="M18 37C28 19 44 12 64 12c21 0 37 8 47 25" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="96" cy="31" r="5" fill="#57ead7"/>
+  <g filter="url(#glow)">
+    <path d="M64 26c-18 0-31 13-31 31 0 21 31 46 31 46s31-25 31-46c0-18-13-31-31-31Z" fill="url(#pin)"/>
+    <path d="M45 66c1-14 9-23 19-23s18 9 19 23H45Z" fill="#fbffff"/>
+    <path d="M42 68h44c0 7-6 12-13 12H55c-7 0-13-5-13-12Z" fill="#cffff7"/>
+    <path d="M42 68h44" stroke="#9beee4" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="64" cy="37" r="3.5" fill="#cffff7"/>
+  </g>
+  <path d="M26 99c11 11 23 16 38 16 16 0 29-6 39-17" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="3" stroke-linecap="round"/>
+</svg>

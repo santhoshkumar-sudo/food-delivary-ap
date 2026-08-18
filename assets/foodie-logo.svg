@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Foodie premium food delivery logo</title>
+  <desc id="desc">A coral delivery dome and a mint-green fork on a deep violet rounded square.</desc>
+  <defs>
+    <linearGradient id="background" x1="18" y1="12" x2="112" y2="118" gradientUnits="userSpaceOnUse"><stop stop-color="#9B8CFF"/><stop offset=".48" stop-color="#735EF2"/><stop offset="1" stop-color="#4B36C7"/></linearGradient>
+    <linearGradient id="dome" x1="43" y1="43" x2="91" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#FF9B8F"/><stop offset="1" stop-color="#FF5E78"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#241663" flood-opacity=".32"/></filter>
+  </defs>
+  <rect width="128" height="128" rx="38" fill="url(#background)"/>
+  <path d="M21 35C30 18 47 10 66 10c20 0 35 8 45 22" fill="none" stroke="#fff" stroke-opacity=".15" stroke-width="8" stroke-linecap="round"/>
+  <g filter="url(#shadow)"><path d="M35 77c2-22 15-36 32-36s30 14 32 36H35Z" fill="url(#dome)"/><path d="M31 80h72c0 10-8 18-18 18H49c-10 0-18-8-18-18Z" fill="#FFF7F5"/><path d="M31 80h72" stroke="#FFE1DF" stroke-width="4" stroke-linecap="round"/><circle cx="67" cy="34" r="5" fill="#59E1CC"/><path d="M67 39v6" stroke="#59E1CC" stroke-width="4" stroke-linecap="round"/></g>
+  <path d="M43 49v23M38 49v11M48 49v11M43 72v17" fill="none" stroke="#59E1CC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="30" r="5" fill="#59E1CC" fill-opacity=".9"/>
+</svg>
